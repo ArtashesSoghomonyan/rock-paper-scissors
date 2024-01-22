@@ -10,7 +10,7 @@ const Rock = "Rock 🪨"
 const Paper = "Paper 📄"
 const Scissors = "Scissors ✂️"
 
-var Choices = [3]string{Rock, Paper, Scissors}
+var Choices [3]string = [3]string{Rock, Paper, Scissors}
 
 func RockPaperScissorsPrompt(label string) string {
 	prompt := promptui.Select{
