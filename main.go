@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/ArtashesSoghomonyan/rock-paper-scissors/prompts"
+)
 
 func main() {
-	fmt.Printf("rock paper scissors: initial commit")
+	fmt.Println("Rock paper scissors")
+	prompts.RockPaperScissorsPrompt("What is your choice?")
 }
