@@ -4,4 +4,4 @@
 
 * [x] create a user choice prompt 
 * [x] generate random bot choice and compare with user's choice
-* [ ] ask for (try again / quit)
+* [x] ask for (try again / quit)
