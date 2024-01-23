@@ -33,5 +33,5 @@ func main() {
 
 	fmt.Printf(`Thanks for playing!
 Here are the results
-    * Tries: %d, Your score: %v %s`, tries, score, "\n")
+    * Tries: %d, Score: %v %s`, tries, score, "\n")
 }

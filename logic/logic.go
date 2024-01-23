@@ -15,28 +15,28 @@ func CompareChoices(choice1 string, choice2 string) string {
 	var result string
 
 	if choice1 == choice2 {
-		result = "draw"
+		result = "Draw 🤝"
 	} else {
 		if choice1 == prompts.Rock {
 			switch choice2 {
 			case prompts.Paper:
-				result = "you lose"
+				result = "You lose 😕"
 			case prompts.Scissors:
-				result = "you win"
+				result = "You win 🙂"
 			}
 		} else if choice1 == prompts.Paper {
 			switch choice2 {
 			case prompts.Scissors:
-				result = "you lose"
+				result = "You lose 😕"
 			case prompts.Rock:
-				result = "you win"
+				result = "You win 🙂"
 			}
 		} else if choice1 == prompts.Scissors {
 			switch choice2 {
 			case prompts.Rock:
-				result = "you lose"
+				result = "You lose 😕"
 			case prompts.Paper:
-				result = "you win"
+				result = "You win 🙂"
 			}
 		}
 	}
